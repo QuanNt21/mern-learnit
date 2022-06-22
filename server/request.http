@@ -1,0 +1,35 @@
+POST  http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "quannt21",
+    "password": "quannt21"
+}
+
+###
+
+POST  http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "username": "Tula",
+    "password": "Tula"
+}
+
+###
+
+POST http://localhost:3000/api/posts
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmFlNjg3M2NiY2VlMjMzMWViY2YzOGEiLCJpYXQiOjE2NTU1OTcxNzF9.HSmpzv0g8Iu-DbtpMZSMdCaC9qx_6xGwo4zd52iNciM
+
+{
+    "title": "React",
+    "description": "Hoc Reactjs",
+    "url": "react.com"
+}
+
+
+###
+
+GET  http://localhost:3000/api/posts
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MmFlNjg3M2NiY2VlMjMzMWViY2YzOGEiLCJpYXQiOjE2NTU1OTcxNzF9.HSmpzv0g8Iu-DbtpMZSMdCaC9qx_6xGwo4zd52iNciM
